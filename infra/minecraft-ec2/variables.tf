@@ -85,13 +85,13 @@ variable "server_memory_max" {
 variable "mcp_repo_url" {
   description = "Git repository URL cloned on EC2 for the MCP controller."
   type        = string
-  default     = "https://github.com/minjini-sys/evacuation-simulator-aws.git"
+  default     = "https://github.com/Dowon-Kang/evacuation-simulator-aws.git"
 }
 
 variable "mcp_repo_branch" {
   description = "Git branch cloned on EC2 for the MCP controller."
   type        = string
-  default     = "codex/aws-iot-gesture-path"
+  default     = "main"
 }
 
 variable "mcp_mqtt_topic" {
