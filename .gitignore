@@ -57,6 +57,7 @@ logs/
 *.swp
 .runtime/
 .tools/
+.aws/
 
 # =========================
 # 6) OS / Editor
